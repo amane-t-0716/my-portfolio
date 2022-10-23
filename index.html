@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="ja">
+  <!--head要素には、表示されないがページに含めたいものをいれておく-->
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--リセットCSSでデザイン崩れを防ぐ-->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <!--CSSを外部(style.css)から読み込む-->
     <link rel="stylesheet" href="style.css" />
+    <!--フォントを読み込む？-->
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple
+    rel="stylesheet">
+
+    <!--title要素はタブに表示される名前-->
     <title>My Portfolio</title>
   </head>
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <!--見出し以外の分には<p></p>を使う！-->
+    <div class="first-part">
+      <div class="first-logo">
+        <h1>My portfolio</h1>
+        <h2>-Three things make my life happy !-</h2>
+      </div>
+    </div>
+
+    <div class="second-part">
+      <div class="second-logo">*three favorite things*</div>
+    </div>
+
+    <div class="contents">
+      <div class="contents-item">
+        <img src="883F38AD-3DA4-4E84-83DC-4DA1AA1D3F49.jpg" />
+        <a href="https://www.nicolaibergmann.com/locations/nomu/">cafe</a>
+      </div>
+
+      <div class="contents-item">
+        <img src="maneskin.jpg" />
+        <a href="https://www.instagram.com/maneskinofficial/?hl=ja"
+          >favorite artist</a
+        >
+      </div>
+
+      <div class="contents-item">
+        <img src="5syaihina.jpg" />
+        <a href="https://www.youtube.com/channel/UCLdEdYIPup_1t03dP0tTJqw"
+          >make up video</a
+        >
+      </div>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>

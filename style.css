@@ -1,0 +1,46 @@
+.first-part {
+  background-color: black;
+  height: 500px;
+}
+
+.first-logo h1 {
+  color: rgb(219, 171, 171);
+  font-size: 70px;
+  font-family: "Homemade Apple", cursive;
+  padding: 200px 400px 10px 300px;
+}
+
+.first-logo h2 {
+  color: rgb(219, 171, 171);
+  font-size: 30px;
+  font-family: "Homemade Apple", cursive;
+  padding: 10px 50px 30px 600px;
+}
+
+.second-part {
+  background-color: rgb(114, 91, 91);
+  height: 50px;
+}
+
+.second-logo {
+  font-size: 20px;
+  font-family: "Homemade Apple", cursive;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.contents {
+  background-color: rgb(219, 171, 171);
+}
+.contents-item {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.contents-item p {
+  font-family: "Homemade Apple", cursive;
+  display: flex;
+  justify-content: baseline;
+}
